@@ -1,0 +1,106 @@
+{
+  "resumeTitle": {
+    "title": "LeeJuhyeong"
+  },
+
+  "information": {
+    "name": "이주형",
+    "contact": [
+      { "id": 0, "name": "Email", "href": "smilebank7@cau.ac.kr", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/smilebank7" }
+    ]
+  },
+
+  "workExperience": [
+    {
+      "id": 0,
+      "name": "코딩플러스 상도점",
+      "position": "Programming Instructor",
+      "period": ["2023. 02", "2023. 12"],
+      "description": "코딩플러스 상도점에서 C언어, Python, 알고리즘 등을 가르쳤습니다."
+    },
+    {
+      "id": 1,
+      "name": "PSEDU 홀딩스 개발사업부",
+      "position": "Frontend Developer",
+      "period": ["2023. 08", "now"],
+      "description": "PSEDU 홀딩스 개발사업부에서 프론트엔드 개발과 앱 개발(PM)을 맡고 있습니다."
+    }
+  ],
+
+  "project": [
+    {
+      "id": 0,
+      "name": "크루크루",
+      "description": "대학생들을 위한 프로젝트 팀 구인 플랫폼(미출시)",
+      "webUrl": "",
+      "repoUrl": "https://github.com/smilebank7/Kroocrew2",
+      "isTeam": true,
+      "period": ["2023. 09", "2023. 12"],
+      "stack": ["Flutter", "Node.js", "Azure"]
+    },
+    {
+      "id": 1,
+      "name": "WIP",
+      "description": "",
+      "webUrl": "",
+      "repoUrl": "",
+      "isTeam": false,
+      "period": ["0000.00","0000.00"],
+      "stack": [""]
+    }
+  ],
+
+  "activity": [
+    {
+      "id": 0,
+      "name": "중앙대학교 CECOM 부회장",
+      "period": ["2021. 12", "2022. 12"],
+      "description": "하드웨어 중앙동아리 CECOM에서 부회장을 맡아 Python 멘토링 클래스를 담당했습니다."
+    },
+    {
+      "id": 1,
+      "name": "GDSC 중앙대학교 Alumni",
+      "period": ["2022. 06", "2023. 06"],
+      "description": "Google Developer Student Club CAU에서 Flutter 스터디를 진행했습니다."
+    },
+    {
+      "id": 2,
+      "name": "42Seoul La Piscine",
+      "period": ["2022. 12", "2023. 2"],
+      "description": "다른 Pisciner들과 소통하고 공부하며 성장하는 방법을 배웠습니다."
+    }
+  ],
+
+  "education": [
+    {
+      "id": 0,
+      "name": "중앙대학교 소프트웨어학부",
+      "period": ["2021. 02", "2023. 12"],
+      "description": "휴학"
+    }
+  ],
+
+  "certificate": [
+    {
+      "id": 0,
+      "name": "네트워크 관리사 2급",
+      "organizer": "ICQA"
+    },
+    {
+      "id": 1,
+      "name": "정보처리기능사",
+      "organizer": "ICQA"
+    }
+  ],
+
+  "award": [
+    {
+      "id": 0,
+      "name": "중앙대학교 LINC+사업단 캡스톤 디자인 경진대회 아이디어 부문 수상",
+      "date": "2021. 11",
+      "organizer": "중앙대학교",
+      "description": "구형 가전을 IoT 가전으로 만들어주는 부착형 IoT 모듈 개발"
+    }
+  ]
+}
