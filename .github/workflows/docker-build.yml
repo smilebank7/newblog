@@ -31,5 +31,6 @@ jobs:
         with:
           context: .
           file: Dockerfile
+          platforms: linux/arm64
           push: true
           tags: ghcr.io/${{ github.repository_owner }}/newblog:latest
