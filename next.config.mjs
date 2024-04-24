@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
     reactStrictMode: true,
     webpack: (config) => {
@@ -12,7 +13,8 @@ const nextConfig = {
         });
         return config;
     },
-    output: 'standalone'
+    output: 'standalone',
+    assetPrefix: isProd ? 'http://smilebank7.com' : undefined
 };
 
 export default nextConfig;
