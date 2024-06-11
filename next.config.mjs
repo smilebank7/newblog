@@ -14,7 +14,10 @@ const nextConfig = {
         return config;
     },
     output: 'standalone',
+    assetPrefix : '/blog'
+/*
     assetPrefix: isProd ? 'http://smilebank7.com' : undefined
+*/
 };
 
 export default nextConfig;

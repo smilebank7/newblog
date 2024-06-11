@@ -1,0 +1,29 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: testblog-ingress
+  namespace: blog
+  annotations:
+    nginx.ingress.kubernetes.io/app-root: /blog
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: smilebank7.com
+      http:
+        paths:
+          - path: /blog(/|$)(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: testblog-service
+                port:
+                  number: 80
+          - path: /_next(/|$)(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: testblog-service
+                port:
+                  number: 80

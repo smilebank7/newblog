@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testblog
+  namespace: blog
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: testblog
+  template:
+    metadata:
+      labels:
+        app: testblog
+    spec:
+      containers:
+        - name: testblog
+          image: ghcr.io/smilebank7/newblog:latest
+          ports:
+            - containerPort: 3000
+      imagePullSecrets:
+        - name: ghcr-io-secret
